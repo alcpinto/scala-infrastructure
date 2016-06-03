@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>alp.scala</groupId>
+		<artifactId>infrastructure</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<groupId>alp.scala</groupId>
+	<artifactId>versions</artifactId>
+	<name>Scala infrastructure versions</name>
+	<packaging>pom</packaging>
+	
+	<properties>
+		<!-- SETUP VERSION TAG -->
+		<alp.setup.version>1.0.0-SNAPSHOT</alp.setup.version>
+		
+		<scala.version>2.11.8</scala.version>
+		<scala.binary.version>2.11</scala.binary.version>
+		<breeze.version>0.12</breeze.version>
+		<breeze.native.version>0.12</breeze.native.version>
+	</properties>
+	
+	<modules>
+		<module>build</module>
+	</modules>
+	
+</project>
