@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>alp.scala</groupId>
 		<artifactId>infrastructure</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
 	<groupId>alp.scala</groupId>
@@ -15,8 +15,9 @@
 	
 	<properties>
 		<!-- SETUP VERSION -->
-		<alp.setup.version>1.0.0-SNAPSHOT</alp.setup.version>
-		
+		<alp.setup.version>0.0.1-SNAPSHOT</alp.setup.version>
+		<alp.scala.dataanalysis.version>0.0.1-SNAPSHOT</alp.scala.dataanalysis.version>
+
 		<!-- MODULES VERSIONS -->
 		<chapter1.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter1.scala.dataanalysis.version>
 		
@@ -25,6 +26,7 @@
 		<scala.binary.version>2.11</scala.binary.version>
 		<breeze.version>0.12</breeze.version>
 		<breeze.native.version>0.12</breeze.native.version>
+		<spark.version>1.6.1</spark.version>
 	</properties>
 	
 	<modules>

@@ -1,17 +1,48 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
-	<parent>
+
+    <parent>
 		<groupId>alp.scala</groupId>
 		<artifactId>versions</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
 	<groupId>alp.scala</groupId>
 	<artifactId>scala-build</artifactId>
 	<name>Scala infrastructure build</name>
 	<packaging>pom</packaging>
+
+    <properties>
+        <encoding>UTF-8</encoding>
+    </properties>
+
+    <modules>
+        <module>scala-common</module>
+        <module>scala-spark</module>
+    </modules>
+
+    <dependencies>
+        <!-- Test -->
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.11</artifactId>
+            <version>2.2.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_2.10</artifactId>
+            <version>1.13</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 		
 	<profiles>
         <profile>
@@ -68,12 +99,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <args>
-                        <!-- work-around for https://issues.scala-lang.org/browse/SI-8358 -->
-                        <arg>-nobootcp</arg>
-                    </args>
-                </configuration>
             </plugin>
         </plugins>
     </build>
