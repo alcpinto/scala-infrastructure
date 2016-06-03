@@ -9,7 +9,7 @@
 	</parent>
 	
 	<groupId>alp.scala</groupId>
-	<artifactId>build</artifactId>
+	<artifactId>scala-build</artifactId>
 	<name>Scala infrastructure build</name>
 	<packaging>pom</packaging>
 		

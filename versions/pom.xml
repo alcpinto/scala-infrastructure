@@ -14,9 +14,13 @@
 	<packaging>pom</packaging>
 	
 	<properties>
-		<!-- SETUP VERSION TAG -->
+		<!-- SETUP VERSION -->
 		<alp.setup.version>1.0.0-SNAPSHOT</alp.setup.version>
 		
+		<!-- MODULES VERSIONS -->
+		<chapter1.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter1.scala.dataanalysis.version>
+		
+		<!-- 3rd PARTY VERSIONS -->
 		<scala.version>2.11.8</scala.version>
 		<scala.binary.version>2.11</scala.binary.version>
 		<breeze.version>0.12</breeze.version>
@@ -24,7 +28,7 @@
 	</properties>
 	
 	<modules>
-		<module>build</module>
+		<module>scala-build</module>
 	</modules>
 	
 </project>
