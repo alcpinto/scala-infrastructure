@@ -20,6 +20,8 @@
 
 		<!-- MODULES VERSIONS -->
 		<chapter1.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter1.scala.dataanalysis.version>
+		<chapter2.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter2.scala.dataanalysis.version>
+		<chapter3.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter3.scala.dataanalysis.version>
 		
 		<!-- 3rd PARTY VERSIONS -->
 		<scala.version>2.11.8</scala.version>
@@ -27,6 +29,10 @@
 		<breeze.version>0.12</breeze.version>
 		<breeze.native.version>0.12</breeze.native.version>
 		<spark.version>1.6.1</spark.version>
+		<avro.version>1.8.1</avro.version>
+		<parquet.version>1.6.0</parquet.version>
+		<parquet.avro.version>1.8.1</parquet.avro.version>
+		<chill.avro.version>0.8.0</chill.avro.version>
 	</properties>
 	
 	<modules>
