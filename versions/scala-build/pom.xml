@@ -29,6 +29,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
+
                 <dependency>
                     <groupId>org.scala-lang</groupId>
                     <artifactId>scala-library</artifactId>
@@ -49,6 +50,23 @@
                     <artifactId>scala-swing_${scala.binary.version}</artifactId>
                     <version>1.0.2</version>
                 </dependency>
+                <dependency>
+                    <groupId>org.scala-lang.modules</groupId>
+                    <artifactId>scala-xml_2.11</artifactId>
+                    <version>1.0.5</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.apache.spark</groupId>
+                    <artifactId>spark-catalyst_${scala.binary.version}</artifactId>
+                    <version>${spark.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.codehaus.janino</groupId>
+                    <artifactId>commons-compiler</artifactId>
+                    <version>2.7.8</version>
+                </dependency>
+
             </dependencies>
         </profile>
     </profiles>

@@ -22,7 +22,7 @@
 		<chapter1.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter1.scala.dataanalysis.version>
 		<chapter2.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter2.scala.dataanalysis.version>
 		<chapter3.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter3.scala.dataanalysis.version>
-		<chapter4.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter4.scala.dataanalysis.version>
+		<chapter5.scala.dataanalysis.version>0.0.1-SNAPSHOT</chapter5.scala.dataanalysis.version>
 		
 		<!-- 3rd PARTY VERSIONS -->
 		<scala.version>2.11.8</scala.version>
